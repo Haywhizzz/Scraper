@@ -17,7 +17,6 @@ class Firstbank
       @firstbank_locations.push(location_address)
       firstbank.push(location_address)
       csv << firstbank
-    
     end
   end
 
@@ -26,5 +25,5 @@ class Firstbank
   def parse_url(url)
     unparsed_page = HTTParty.get(url)
     Nokogiri::HTML(unparsed_page)
-  end  
+  end
 end
