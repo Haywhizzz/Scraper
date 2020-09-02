@@ -1,7 +1,7 @@
 require './lib/tastee'
 
 describe Firstbank do
-    let(:tastee) { Firstbank.new }
+  let(:tastee) { Firstbank.new }
   describe '#initialize' do
     it 'initialize url to string value' do
       expect(tastee.url).to be_a(String)
@@ -28,4 +28,3 @@ describe Firstbank do
     end
   end
 end
-
