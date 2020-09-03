@@ -10,7 +10,7 @@ This project implements a basic and simple web scrapping using the Ruby Language
 
 ## Video presentation
 
-#### [Presentation!](https://www.loom.com/share/9d3f0d1f541b4420ae3bc26f1a7b75a9)
+#### [Presentation!](https://www.loom.com/share/502f7a76737b4bb6bbcf4279771f0db3)
 
 ### Prerequisites
 
