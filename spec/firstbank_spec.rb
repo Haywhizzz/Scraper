@@ -11,7 +11,6 @@ describe FirstBank do
     end
   end
 
-  
   describe '#scrape' do
     let(:csv) { CSV.open('first_bank1.csv', 'a+') }
     let(:update_csv) { csv << %w[area] }
