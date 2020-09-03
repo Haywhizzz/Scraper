@@ -1,7 +1,7 @@
-require './lib/firstbank'
+require './lib/first_bank'
 
-describe Firstbank do
-  let(:firstbank) { Firstbank.new }
+describe FirstBank do
+  let(:firstbank) { FirstBank.new }
   describe '#initialize' do
     it 'initialize url to string value' do
       expect(firstbank.url).to be_a(String)
@@ -12,7 +12,7 @@ describe Firstbank do
   end
 
   describe '#scrape' do
-    let(:csv) { CSV.open('firstbank1.csv', 'a+') }
+    let(:csv) { CSV.open('first_bank1.csv', 'a+') }
     let(:update_csv) { csv << %w[area] }
 
     it 'should update the location array' do
