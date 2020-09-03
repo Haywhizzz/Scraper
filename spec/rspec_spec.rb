@@ -1,4 +1,4 @@
-require '../lib/first_bank'
+require './lib/first_bank'
 
 describe FirstBank do
   let(:firstbank) { FirstBank.new }
