@@ -7,6 +7,7 @@ This project implements a basic and simple web scrapping using the Ruby Language
 - Ruby
 - Nokogiri gem
 - Httparty gem
+- VS Code
 
 ## Video presentation
 
