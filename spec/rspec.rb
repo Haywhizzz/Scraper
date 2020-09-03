@@ -1,6 +1,6 @@
 require './lib/firstbank'
 
-#describe Firstbank do
+# describe Firstbank do
 #  let(:firstbank) {Firstbank.new}
 #  describe '#initialize' do
 #    it 'initialize all instance variables' do
@@ -14,8 +14,8 @@ require './lib/firstbank'
 #      firstbank.scrape
 #      expect(firstbank.locations.length).to be > 0
 #    end
-#  end  
-#end
+#  end
+# end
 
 describe Firstbank do
   let(:firstbank) { Firstbank.new }
@@ -26,9 +26,9 @@ describe Firstbank do
     it 'initialize firstbank_location to an empty array' do
       expect(firstbank.firstbank_locations).to eql([])
     end
-    #it 'initialize parsed_page to null' do
+    # it 'initialize parsed_page to null' do
     #  expect(firstbank.parsed_page.nil?).to eql(true)
-    #end
+    # end
   end
 
   describe '#scrape' do
