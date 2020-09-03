@@ -15,31 +15,14 @@ This project implements a basic and simple web scrapping using the Ruby Language
 
 ### Prerequisites
 
-First ruby should be install in your local enviroment:
 Run the following command:
-
-```
-$ ruby -v
-```
-
-You should a have a result similar to this:
-
-```
-ruby 2.6.5p114 (2019-10-01 revision 67812) [x64-mingw32]
-```
-
-If you don't get that result, follow this [link](https://www.ruby-lang.org/en/documentation/installation/) and install Ruby in your local enviroment.
+- Run `gem install bundler` to install bundler.
+- Run `bundle install` to install Nokogiri and HTTParty Gems.
 
 ### Setup
 
 - Clone the project to your local machine;
 - cd into the project directory;
-
-### Install
-
-Run the following command:
-- Run `gem install bundler` to install bundler.
-- Run `bundle install` to install Nokogiri and HTTParty Gems.
 
 ### Usage
 
