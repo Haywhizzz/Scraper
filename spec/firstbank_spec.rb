@@ -1,4 +1,4 @@
-require './lib/first_bank'
+require './lib/firstbank'
 
 describe FirstBank do
   let(:firstbank) { FirstBank.new }
@@ -12,7 +12,7 @@ describe FirstBank do
   end
 
   describe '#scrape' do
-    let(:csv) { CSV.open('first_bank1.csv', 'a+') }
+    let(:csv) { CSV.open('firstbank1.csv', 'a+') }
     let(:update_csv) { csv << %w[area] }
 
     it 'should update the location array' do
