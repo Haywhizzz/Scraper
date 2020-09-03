@@ -5,4 +5,3 @@ gem 'httparty', '~> 0.18.1'
 gem 'nokogiri'
 gem 'pry', '~> 0.13.1'
 gem 'rspec'
-
