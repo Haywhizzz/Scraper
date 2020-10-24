@@ -43,7 +43,7 @@ To run tests:
 
 - Github: [@Haywhizzz](https://github.com/Haywhizzz)
 - Twitter: [@Haywhizzz](https://twitter.com/Haywhizzz)
-- Linkedin: [Haywhizzz](https://www.linkedin.com/in/oyeleke-ayomide-b962421a6/)
+- Linkedin: [Haywhizzz](https://www.linkedin.com/in/oyelekeayomide)
  
 ## 🤝 Contributing
 
